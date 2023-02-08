@@ -1,0 +1,73 @@
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1674461874820-a83953ef3b48?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NTg2NzMwOA&ixlib=rb-4.0.3&q=80&w=1000);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  margin: 5px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: #837f9e;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: left;
+}
+
+p {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  width: 700px;
+  margin: 25px auto;
+}
+
+#subtext {
+  color: beige;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
